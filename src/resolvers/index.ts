@@ -1,3 +1,3 @@
-import { TestResolver } from "./test.resolver";
+import { PlantResolver } from "./plant.resolver";
 
-export const resolvers = [TestResolver] as const;
+export const resolvers = [PlantResolver] as const;

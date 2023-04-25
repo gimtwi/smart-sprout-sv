@@ -1,4 +1,4 @@
 import { getModelForClass } from "@typegoose/typegoose";
-import { TestType } from "./types/test.type";
+import { PlantType } from "./types/plant.type";
 
-export const TestModel = getModelForClass(TestType);
+export const PlantModel = getModelForClass(PlantType);
