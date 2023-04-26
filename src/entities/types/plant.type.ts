@@ -25,15 +25,27 @@ export class PlantType {
   })
   img: SVGUsed;
 
-  @Field(() => Number, { nullable: true })
-  @prop({ type: () => Number })
+  @Field(() => Number, { defaultValue: 0 })
+  @prop({ type: () => Number, default: 0 })
   humidity: number;
 
-  @Field(() => Number, { nullable: true })
-  @prop({ type: () => Number })
+  @Field(() => Number, { defaultValue: 0 })
+  @prop({ type: () => Number, default: 0 })
   brightness: number;
 
-  @Field(() => Number, { nullable: true })
-  @prop({ type: () => Number })
+  @Field(() => Number, { defaultValue: 0 })
+  @prop({ type: () => Number, default: 0 })
   temperature: number;
+
+  @Field(() => Boolean, { defaultValue: false })
+  @prop({ type: () => Boolean, default: false })
+  watering: boolean;
+
+  @Field(() => Boolean, { defaultValue: false })
+  @prop({ type: () => Boolean, default: false })
+  lighting: boolean;
+
+  @Field(() => Boolean, { defaultValue: false })
+  @prop({ type: () => Boolean, default: false })
+  fan: boolean;
 }
