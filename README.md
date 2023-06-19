@@ -4,9 +4,7 @@
 
 Make sure you have the following frameworks installed on your machine:
 
-- [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
-  OR
-- [pnpm](https://pnpm.io/installation)
+- [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) OR [pnpm](https://pnpm.io/installation)
 - [node.js](https://nodejs.org/en/download)
 - [mongodb](https://www.mongodb.com/docs/manual/administration/install-community/)
 - [compass](https://www.mongodb.com/docs/compass/master/install/)
