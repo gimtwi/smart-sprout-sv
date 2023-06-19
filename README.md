@@ -17,4 +17,4 @@ After cloning the repository, run in terminal of the project directory:
 - `npm i` OR `pnpm i`
 - `npm run sv` OR `pnpm sv`
 
-After this you should be able to access the server on `http://localhost:4000/graphql`
+After this you should be able to access the server on [Localhost](http://localhost:4000/graphql)
