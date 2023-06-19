@@ -11,9 +11,10 @@ Make sure you have the following frameworks installed on your machine:
 
 ## How do I get this running?
 
+- Connect MongoDB in Compass by clicking on `Connect`.
+
 After cloning the repository, run in terminal of the project directory:
 
-- Connect MongoDB in Compass by clicking on `Connect`.
 - `npm i` OR `pnpm i`
 - `npm run sv` OR `pnpm sv`
 
